@@ -11,6 +11,9 @@ const Header = () => {
           <li>
             <Link to="/refs">useRefs</Link>
           </li>
+          <li>
+            <Link to="/hoc">HOC</Link>
+          </li>
         </ul>
       </nav>
     </div>
