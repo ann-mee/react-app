@@ -14,6 +14,9 @@ const Header = () => {
           <li>
             <Link to="/hoc">HOC</Link>
           </li>
+          <li>
+            <Link to="/controlled-components">Controlled components</Link>
+          </li>
         </ul>
       </nav>
     </div>

@@ -7,6 +7,7 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Refs from "./pages/Refs";
 import Hoc from "./pages/Hoc";
+import ControlledComponents from "./pages/ControlledComponents";
 
 const App = () => {
   return (
@@ -16,6 +17,10 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="refs" element={<Refs />} />
           <Route path="hoc" element={<Hoc />} />
+          <Route
+            path="controlled-components"
+            element={<ControlledComponents />}
+          />
         </Route>
       </Routes>
     </BrowserRouter>
