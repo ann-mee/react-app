@@ -17,6 +17,9 @@ const Header = () => {
           <li>
             <Link to="/controlled-components">Controlled components</Link>
           </li>
+          <li>
+            <Link to="/pure-component">Pure component</Link>
+          </li>
         </ul>
       </nav>
     </div>

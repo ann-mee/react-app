@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Refs from "./pages/Refs";
 import Hoc from "./pages/Hoc";
 import ControlledComponents from "./pages/ControlledComponents";
+import PureComponent from "./pages/PureComponent";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
             path="controlled-components"
             element={<ControlledComponents />}
           />
+          <Route path="pure-component" element={<PureComponent />} />
         </Route>
       </Routes>
     </BrowserRouter>
