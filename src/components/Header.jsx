@@ -20,6 +20,9 @@ const Header = () => {
           <li>
             <Link to="/pure-component">Pure component</Link>
           </li>
+          <li>
+            <Link to="/optimization">Optimization</Link>
+          </li>
         </ul>
       </nav>
     </div>

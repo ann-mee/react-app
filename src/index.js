@@ -9,6 +9,7 @@ import Refs from "./pages/Refs";
 import Hoc from "./pages/Hoc";
 import ControlledComponents from "./pages/ControlledComponents";
 import PureComponent from "./pages/PureComponent";
+import Optimization from "./pages/Optimization";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
             element={<ControlledComponents />}
           />
           <Route path="pure-component" element={<PureComponent />} />
+          <Route path="optimization" element={<Optimization />} />
         </Route>
       </Routes>
     </BrowserRouter>
